@@ -6,7 +6,7 @@
     --secondary-color: rgba(239, 133, 18, 0.9);
     --secondary-color-half: rgba(239, 133, 18, 0.5);
     --lighter-bg-color: #eee;
-    --nav-half-bg-color: rgba(230, 230, 230, 0.6);
+    --nav-half-bg-color: rgba(255, 255, 255, 0.6);
     --font-color: #000;
     --bg-color: #fff;
     --switch-bg-color: rgba(0, 0, 0, 0.15);
@@ -132,14 +132,22 @@ hr {
 }
 
 .align-right {
-    text-align: right;
+    text-align: right !important;
 }
 
 .align-left {
-    text-align: left;
+    text-align: left !important;
 }
 
-/* LOADER 
+.right {
+    float: right !important;
+}
+
+.left {
+    float: left !important;
+}
+
+/* LOADER */
 
 .load {
     height: 100%;
@@ -157,6 +165,7 @@ hr {
     background-repeat: no-repeat;
     height: 200;
     width: 200;
+    animation: scale 1.5s linear infinite;
 }
 
 .loader-wheel:after {
@@ -294,7 +303,7 @@ hr {
 
 .home {
     height: 90%;
-    color: var(--font-color);
+    color: #fff;
 }
 
 .home .row {
@@ -342,6 +351,7 @@ hr {
 .home-text h5 {
     font-size: 20;
     font-family: 'Poppins', sans-serif;
+    padding-left: 10;
 }
 
 .home-logo {
@@ -362,14 +372,6 @@ hr {
     height: 5px;
     width: 40%;
     background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-}
-
-.right {
-    float: right;
-}
-
-.left {
-    float: left;
 }
 
 .section .row {
@@ -416,6 +418,20 @@ hr {
 a:hover .icon {
     background-color: var(--secondary-color);
     color: #fff;
+}
+
+/* CONTACT */
+
+.contact {
+    padding-bottom: 0;
+}
+
+.contact .row {
+    padding: 0 !important;
+}
+
+.contact .row .col-md-4 {
+    padding: 50 10;
 }
 
 /* FOOTER */
@@ -476,5 +492,14 @@ a:hover .icon {
     }
     100% {
         transform: rotate(360deg)
+    }
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1);
     }
 }
