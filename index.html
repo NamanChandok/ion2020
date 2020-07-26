@@ -1,0 +1,194 @@
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+
+<head>
+
+    <title>Coral | Always There For You</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Open+Sans&family=Poiret+One&family=Raleway&display=swap&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='main.css' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="lib/favicon.png" sizes="26x26" type="image/png">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body onload="myFunction()">
+
+    <div class="load" id="load">
+        <center>
+            <div class="loader-wheel">
+            </div>
+        </center>
+    </div>
+
+    <div class="mainbod" id="mainbod">
+
+        <!--- DARK MODE SWITCH --->
+
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round">
+                    <center>
+                        <img src="lib/sun.png" class="sun">
+                        <img src="lib/moon.png" class="moon">
+                    </center>
+                </div>
+            </label>
+        </div>
+
+        <div class="navbar" id="navbar">
+            <div class="nav-big">
+                <a href="#home" class="nav-img"><img src="lib/logo-text.png"></a>
+                <a class="helpline">Helpline Number: +91-9152987821</a>
+                <a href="#team">Team</a>
+                <a href="#about" class="nava">About</a>
+                <a href="#home" id="navh">Home</a>
+            </div>
+            <div class="nav-small">
+                <span onclick="openNav()" class="bruh">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </div>
+        </div>
+
+        <div id="sidenav" class="sidenav">
+            <center>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#home"><i class="fas fa-home"></i></a>
+                <a href="#about">About</a>
+                <a href="#heads">Team</a>
+                <a class="helpline">Helpline Number: +91-9152987821</a>
+            </center>
+        </div>
+
+        <a class="sr-only sr-only-focusable" href="#sidenav">Skip to navigation bar</a>
+        <a class="sr-only sr-only-focusable" href="#home">Skip to main content</a>
+        <a class="sr-only sr-only-focusable" href="#end">Skip to footer</a>
+
+        <!-- HOME -->
+
+        <div class="home" id="home">
+            <div class="row">
+                <div class="col-md-6 slide-left align-right">
+                    <img class="home-logo" src="lib/logo.svg">
+                </div>
+                <div class="col-md-6 home-text slide-right align-left">
+                    <h1>coral</h1>
+                    <h5>always there for you</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+
+        <div class="section about" id="about">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-6 align-right">
+                    <h1 class="section-title">About Us</h1>
+                    <div class="section-hr right"></div>
+                    <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat augue in erat efficitur eleifend. Aliquam suscipit molestie lobortis. Suspendisse potenti. Mauris at eleifend enim. Vestibulum tempus odio eget auctor sodales. Aenean aliquet est non tortor volutpat ultrices. Pellentesque nisl turpis, cursus ac varius a, accumsan eget dui. Curabitur a nibh nibh. Donec venenatis sagittis sem, mollis feugiat turpis pulvinar at. Etiam fermentum metus diam, nec sodales justo tincidunt in. Nam commodo nibh vitae orci ornare fermentum. Maecenas vestibulum a libero eget pellentesque. Ut sed scelerisque arcu. Vestibulum mollis leo vitae lobortis hendrerit. Cras sodales elit ac eros mattis, ac imperdiet arcu mattis.</p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+
+        <center>
+            <hr>
+        </center>
+
+        <!-- CATEGORIES -->
+
+        <div class="section about" id="about">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 align-left">
+                    <h1 class="section-title">Areas where WE can help YOU</h1>
+                    <div class="section-hr left"></div>
+                    <div class="section-text row">
+                        <div class="col-md-6 icon-container">
+                            <center>
+                                <a href="">
+                                    <div class="icon">
+                                        <i class="fal fa-head-side-medical"></i>
+                                    </div>
+                                </a>
+                                <p class="icon-subtitle">Psychologist</p>
+                                <small>lorem ipsum dolor</small>
+                            </center>
+                        </div>
+                        <div class="col-md-6 icon-container">
+                            <center>
+                                <a href="">
+                                    <div class="icon">
+                                        <i class="fal fa-user-md-chat"></i>
+                                    </div>
+                                </a>
+                                <p class="icon-subtitle">Therapist</p>
+                                <small>lorem ipsum dolor</small>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="section-text row">
+                        <div class="col-md-6 icon-container">
+                            <center>
+                                <a href="">
+                                    <div class="icon">
+                                        <i class="fal fa-users"></i>
+                                    </div>
+                                </a>
+                                <p class="icon-subtitle">Support Groups</p>
+                                <small>lorem ipsum dolor</small>
+                            </center>
+                        </div>
+                        <div class="col-md-6 icon-container">
+                            <center>
+                                <a href="">
+                                    <div class="icon">
+                                        <i class="fal fa-comments"></i>
+                                    </div>
+                                </a>
+                                <p class="icon-subtitle">Discussion Boards</p>
+                                <small>lorem ipsum dolor</small>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+
+        <center>
+            <hr>
+        </center>
+
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <a href="#home" class="img-footer"><img src="lib/logo.png" placeholder="Coral"></a>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="fdiv">
+                <br>
+                &copy; All Rights Reserved. Coral 2020<br>
+                Tagore International School<br>
+                Vasant Vihar
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+    <script src="fontawesome.js"></script>
+</body>
+
+</html>
