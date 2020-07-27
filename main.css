@@ -342,7 +342,7 @@ hr {
     position: absolute;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 110%;
     background-position: bottom;
     transition: 0.4s;
     content: "";
