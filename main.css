@@ -139,6 +139,10 @@ hr {
     text-align: left !important;
 }
 
+.align-center {
+    text-align: center !important;
+}
+
 .right {
     float: right !important;
 }
@@ -401,7 +405,11 @@ hr {
 
 .about-logo {
     width: 100%;
-    padding-top: 20vh;
+    padding-top: 15VH;
+}
+
+.about .row .col-md-8 img {
+    width: 100%;
 }
 
 /* FEATURES */
@@ -426,6 +434,10 @@ hr {
 a:hover .icon {
     background-color: var(--secondary-color);
     color: #fff;
+}
+
+#map {
+    height: 40vh;
 }
 
 /* CONTACT */
@@ -453,7 +465,6 @@ a:hover .icon {
 }
 
 .footer img {
-    
     transition: 0.4s;
     width: 100%;
 }
