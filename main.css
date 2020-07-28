@@ -555,6 +555,17 @@ input[type="text"]:focus-within, input[type="password"]:focus-within, input[type
     padding-top: 15vh;
 }
 
+.music-icon {
+    font-size: 100;
+    padding-top: 15vh;
+    color: var(--secondary-color);
+}
+
+.music-count {
+    font-size: 25;
+    padding: 2;
+    font-family: sans-serif;
+}
 .user-img {
     width: 100%;
     border-radius: 50%;
