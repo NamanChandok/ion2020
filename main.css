@@ -565,9 +565,8 @@ input[type="text"]:focus-within, input[type="password"]:focus-within, input[type
     color: var(--secondary-color);
 }
 
-.music-count {
+.icon-count {
     font-size: 25;
-    padding: 2;
     font-family: sans-serif;
 }
 .user-img {
