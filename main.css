@@ -245,6 +245,10 @@ a:hover {
     color: var(--secondary-color);
 }
 
+.bak {
+   cursor: pointer;
+}
+
 .nav-img {
     padding: 0 !important;
     margin: 0 !important;
