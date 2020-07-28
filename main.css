@@ -164,7 +164,7 @@ a:hover {
     opacity: 1;
 }
 
-/* LOADER */
+/* LOADER 
 
 .load {
     height: 100%;
@@ -479,7 +479,7 @@ h3.section-title {
     padding: 50;
 }
 
-input[type=text], input[type=password] {
+input[type=text], input[type=email], input[type=password], textarea {
     border: transparent solid 2px;
     border-bottom-color: var(--primary-color);
     padding: 10;
@@ -487,6 +487,7 @@ input[type=text], input[type=password] {
     transition: 0.25s;
     margin: 10px auto;
     background: none;
+    color: var(--font-color);
 }
 
 input[type="submit"] {
@@ -504,9 +505,10 @@ input[type="submit"]:hover{
     color: #fff;
 }
 
-input[type="text"]:focus-within,  input[type="password"]:focus-within {
+input[type="text"]:focus-within, input[type="password"]:focus-within, input[type="email"]:focus-within, textarea:focus-within {
     border: transparent solid 2px;
     border-bottom-color: var(--secondary-color);
+    width: 90%;
 }
 
 .img-bg-left {
@@ -581,6 +583,19 @@ input[type="text"]:focus-within,  input[type="password"]:focus-within {
 
 .more:hover h5 {
     opacity: 1;
+}
+
+.comment_input, .comment {
+    background-color: var(--scroll-bg-color);
+    padding: 20;
+    border-radius: 25px;
+    transition: 0.25s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+    margin: 20;
+}
+
+.comment_input:hover, .comment:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 /* FEATURES */
