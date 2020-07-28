@@ -164,7 +164,7 @@ a:hover {
     opacity: 1;
 }
 
-/* LOADER 
+/* LOADER */
 
 .load {
     height: 100%;
@@ -515,12 +515,14 @@ input[type="text"]:focus-within, input[type="password"]:focus-within, input[type
     background-image: url(lib/back.jpg);
     background-position: left;
     background-size: cover;
+    min-height: 400;
 }
 
 .img-bg-right {
     background-image: url(lib/back.jpg);
     background-position: right;
     background-size: cover;
+    min-height: 400;
 }
 
 .section-text {
@@ -640,7 +642,11 @@ a:hover .icon {
 }
 
 .contact .row .col-md-4 {
-    padding: 50 10;
+    padding: 50 10 !important;
+}
+
+.contact iframe {
+    min-height: 400;
 }
 
 /* FOOTER */
