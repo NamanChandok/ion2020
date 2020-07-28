@@ -171,6 +171,9 @@ a:hover {
     width: 100%;
     background-color: var(--lighter-bg-color);
     padding-top: 17%;
+    z-index: 999999;
+    position: fixed;
+    transition: 1s cubic-bezier(0, 0, 0, 1.03);
 }
 
 .loader-wheel {
@@ -211,14 +214,11 @@ a:hover {
     bottom: 15px;
 }
 
-.mainbod {
-    display: none;
-}
-
 /* NAVBAR */
 
 .navbar {
     transition: 0.25s;
+    z-index: 1
 }
 
 .navbar a {
