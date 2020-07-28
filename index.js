@@ -7,10 +7,8 @@ function myFunction() {
 }
 
 function showPage() {
-    document.getElementById("load").style.display = "none";
-    document.getElementById("mainbod").style.display = "block";
+    document.getElementById("load").style.transform = "translateY(-100vh)";
 }
-
 // DARK MODE
 
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
