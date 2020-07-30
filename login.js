@@ -14,6 +14,7 @@ $('#submitb').on('click', function(event){
 
     }).catch(function (e) {
         console.log(e);
+        $("#error").html("Email Id or Password Incorrect");
     })
 
 })
