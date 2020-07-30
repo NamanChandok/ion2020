@@ -15,6 +15,7 @@
             window.location.replace("login.html");
         }).catch(function (e) {
             console.log(e);
+            $("#error").innerHTML("Email id is Already in Use");
         })
     
     })
